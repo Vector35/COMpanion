@@ -78,7 +78,7 @@ def main(bv: BinaryView):
     #         For each of them, define a GUID at that location allowing the DataRenderer
     #         to display them nicely
     platform = bv.platform
-    if platform is None or not platform.name.startswith("windows_x86"):
+    if platform is None or not platform.name.startswith("windows-x86"):
         log_warn("COMpanion: Only supports windows usermode platforms")
         return
     bv.begin_undo_actions()
