@@ -1,4 +1,4 @@
-# COMpanion (v0.1.3)
+# COMpanion
 Author: **Vector 35 Inc**
 
 ## Description:
